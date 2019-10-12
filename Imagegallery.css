@@ -1,0 +1,26 @@
+div{
+    float:left;
+}
+#four{
+    display:none;
+}
+img{
+    float:left;
+    width:30%;
+    margin:10px;
+    height:75%;
+    filter: grayscale(0%);
+    transition: 0.1s;
+    zoom: 1;
+}
+img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+*{
+    background: black;
+}
+h1{
+    background-color: white;
+    
+}
